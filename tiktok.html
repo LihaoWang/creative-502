@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <title>Studio 502</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/celsius.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="http://fonts.cdnfonts.com/css/monument-extended"
+      rel="stylesheet"
+    />
+    <style type="text/css">
+      @font-face {
+        font-family: "Monument Extended Bold";
+        src: url("./font-face/55d433372d270829c51e2577a78ef12d.eot"); /* IE9*/
+        src: url("./font-face/55d433372d270829c51e2577a78ef12d.eot?#iefix")
+            format("embedded-opentype"),
+          /* IE6-IE8 */
+            url("./font-face/55d433372d270829c51e2577a78ef12d.woff2")
+            format("woff2"),
+          /* chrome、firefox */
+            url("./font-face/55d433372d270829c51e2577a78ef12d.woff")
+            format("woff"),
+          /* chrome、firefox */
+            url("./font-face/55d433372d270829c51e2577a78ef12d.ttf")
+            format("truetype"),
+          /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+            url("./font-face/55d433372d270829c51e2577a78ef12d.svg#Monument Extended Bold")
+            format("svg"); /* iOS 4.1- */
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/e389e4f473.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <nav>
+          <div class="navbar-menu">
+            <!-- <h1><a href="./index.html">Studio 502</a></h1> -->
+            <a href="./index.html"
+              ><img
+                src="./images/logo.png"
+                width="150px"
+                alt="logo"
+                class="logo-header"
+            /></a>
+            <input type="checkbox" id="hamburger-toggle" class="toggle" />
+            <label for="hamburger-toggle" class="hamburger">
+              <span class="bar"></span>
+            </label>
+
+            <ul class="gnb clearfix">
+              <li><a href="./index.html">Work</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <hr />
+      <section>
+        <div class="project-info">
+          <h2>Vertical Works</h2>
+          <ul>
+            <li>Digital Commercial</li>
+            <li>
+              <h4>Director</h4>
+              <p>Creative Studio 502</p>
+            </li>
+            <li>
+              <h4>Production</h4>
+              <p>Creative Studio 502</p>
+            </li>
+          </ul>
+        </div>
+        <!--
+        	<div class="video-wrapper">
+				<video poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4">
+					<iframe id="player" width="100%" height="auto" src="https://player.vimeo.com/video/403530213" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+				</video>
+			</div>
+			-->
+        <div class="wrapper">
+          <iframe
+            id="player"
+            width="560"
+            height="315"
+            src="https://player.vimeo.com/video/504976475"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <hr />
+      <footer id="contact">
+        <p>Get in Touch.</p>
+        <ul>
+          <li>
+            <h4>Say Hi!</h4>
+            <p><a href="mailto:info@502.nyc.com">info@502.nyc.com</a></p>
+          </li>
+          <li>
+            <h4>Socials</h4>
+            <a href="https://www.instagram.com/creative.502/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/studio502/mycompany/"><i class="fab fa-linkedin"></i></i></a>
+            <a href="https://vimeo.com/502nyc"><i class="fab fa-vimeo-v"></i></a>
+
+            <!-- <p><a href="#">LinkedIn</a></p>
+            <p><a href="#">Instagram</a></p> -->
+          </li>
+          <li>
+            <h4>Address</h4>
+            <p>139 Fulton St, Ste 704 New York, NY, 10018</p>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/video.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/anchorscroll.js"></script>
+  </body>
+</html>

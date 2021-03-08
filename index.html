@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.png" />
     <title>Studio 502</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -40,6 +41,10 @@
             format("svg"); /* iOS 4.1- */
       }
     </style>
+    <script
+      src="https://kit.fontawesome.com/e389e4f473.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script type="text/javascript">
       // parallax //
@@ -68,8 +73,13 @@
       <header>
         <nav>
           <div class="navbar-menu">
-            <h1><a href="./index.html">Studio 502</a></h1>
-
+            <!-- <h1><a href="./index.html">Studio 502</a></h1> -->
+            <a href="./index.html"><img
+              src="./images/logo.png"
+              width="150px"
+              alt="logo"
+              class="logo-header"
+            /></a>
             <input type="checkbox" id="hamburger-toggle" class="toggle" />
             <label for="hamburger-toggle" class="hamburger">
               <span class="bar"></span>
@@ -78,7 +88,7 @@
             <ul class="gnb clearfix">
               <li><a href="./index.html" class="active">Work</a></li>
               <li><a href="./about.html">About</a></li>
-              <li><a href="mailto:info@502.nyc.com">Contact</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </nav>
@@ -88,7 +98,7 @@
         <div class="center">
           <div>
             <h2>
-              <span
+              <!-- <span
                 class="code code--small code--left"
                 data-aos="fade-right"
                 data-aos-delay="800"
@@ -108,32 +118,32 @@
                 data-aos-delay="1000"
                 data-aos-duration="900"
                 >stories</span
-              >
+              > -->
 
               <span
                 class="code code--small code--right"
                 data-aos="fade-left"
                 data-aos-delay="1100"
                 data-aos-duration="900"
-                >for large<br
+                >Powered by<br
               /></span>
               <span
                 class="code code--small code--right"
                 data-aos="fade-left"
                 data-aos-delay="1200"
                 data-aos-duration="900"
-                >and small<br
+                >Creative<br
               /></span>
               <span
                 class="code code--small code--right"
                 data-aos="fade-left"
                 data-aos-delay="1300"
                 data-aos-duration="900"
-                >businesses.</span
+                >Humans</span
               >
             </h2>
             <div>
-              <a href="#anchorscroll" class="anchorscroll">
+              <!-- <a href="#anchorscroll" class="anchorscroll">
                 <p>Scroll down to see our featured projects!</p>
                 <svg class="button__arrow" viewBox="0 0 91 118" fill="none">
                   <path
@@ -141,7 +151,7 @@
                     fill="currentColor"
                   />
                 </svg>
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -172,18 +182,18 @@
               data-aos-anchor-placement="top-center"
               data-aos-offset="-56"
             >
-              <a href="./celsius.html">
+              <a href="./tiktok.html">
                 <ul>
                   <li class="pht">
                     <img
-                      src="./images/Vertical Works.jpg"
+                      src="./thumbnail/TikTok.png"
                       alt=""
-                      data-animated="./images/Vertical Works.gif"
-                      data-static="./images/Vertical Works.jpg"
+                      data-animated="./thumbnail/TikTok.gif"
+                      data-static="/thumbnail/TikTok.png"
                       class="hov-anim"
                     />
                   </li>
-                  <li class="tit">Tiktok</li>
+                  <li class="tit">Vertical Works</li>
                   <li class="tip">Digital Commercial</li>
                 </ul>
               </a>
@@ -198,15 +208,15 @@
                 <ul>
                   <li class="pht">
                     <img
-                      src="./images/Celsius.jpg"
-                      data-animated="./images/Celsius.gif"
-                      data-static="./images/Celsius.jpg"
+                      src="./thumbnail/2020 Reel.png"
+                      data-animated="/thumbnail/2020 Reel.gif"
+                      data-static="/thumbnail/2020 Reel.png"
                       class="hov-anim"
                       alt=""
                     />
                   </li>
-                  <li class="tit">Celsius</li>
-                  <li class="tip">Concept Short Film</li>
+                  <li class="tit">Our 2020</li>
+                  <li class="tip">Studio Reel</li>
                 </ul>
               </a>
             </li>
@@ -216,14 +226,14 @@
               data-aos-anchor-placement="top-center"
               data-aos-offset="-56"
             >
-              <a href="./celsius.html">
+              <a href="./poetry.html">
                 <ul>
                   <li class="pht">
                     <img
-                      src="./images/The Poetry of Spoon.jpg"
+                      src="./thumbnail/The Poetry of Spoon.png"
                       alt=""
-                      data-animated="./images/The Poetry of Spoon.gif"
-                      data-static="./images/The Poetry of Spoon.jpg"
+                      data-animated="./thumbnail/The Poetry of Spoon.gif"
+                      data-static="./thumbnail/The Poetry of Spoon.png"
                       class="hov-anim"
                     />
                   </li>
@@ -238,14 +248,14 @@
               data-aos-anchor-placement="top-center"
               data-aos-offset="-56"
             >
-              <a href="./celsius.html">
+              <a href="./whoami.html">
                 <ul>
                   <li class="pht">
                     <img
-                      src="./images/Who am I.jpg"
+                      src="./thumbnail/Who Am I.png"
                       alt=""
-                      data-animated="./images/Who am I.gif"
-                      data-static="./images/Who am I.jpg"
+                      data-animated="./thumbnail/Who Am I.gif"
+                      data-static="./thumbnail/Who Am I.png"
                       class="hov-anim"
                     />
                   </li>
@@ -260,14 +270,14 @@
               data-aos-anchor-placement="top-center"
               data-aos-offset="-56"
             >
-              <a href="./celsius.html">
+              <a href="./thenexttrain.html">
                 <ul>
                   <li class="pht">
                     <img
-                      src="./images/The Next Train.jpg"
+                      src="./thumbnail/The Next Train.png"
                       alt=""
-                      data-animated="./images/The Next Train.gif"
-                      data-static="./images/The Next Train.jpg"
+                      data-animated="./thumbnail/The Next Train.gif"
+                      data-static="./thumbnail/The Next Train.png"
                       class="hov-anim"
                     />
                   </li>
@@ -282,14 +292,14 @@
               data-aos-anchor-placement="top-center"
               data-aos-offset="-56"
             >
-              <a href="./celsius.html">
+              <a href="./chickengame.html">
                 <ul>
                   <li class="pht">
                     <img
-                      src="./images/Chicken Game.jpg"
+                      src="./thumbnail/Chicken Game.png"
                       alt=""
-                      data-animated="./images/Chicken Game.gif"
-                      data-static="./images/Chicken Game.jpg"
+                      data-animated="./thumbnail/Chicken Game.gif"
+                      data-static="./thumbnail/Chicken Game.png"
                       class="hov-anim"
                     />
                   </li>
@@ -311,12 +321,16 @@
           </li>
           <li>
             <h4>Socials</h4>
-            <p><a href="#">LinkedIn</a></p>
-            <p><a href="#">Instagram</a></p>
+            <a href="https://www.instagram.com/creative.502/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/studio502/mycompany/"><i class="fab fa-linkedin"></i></i></a>
+            <a href="https://vimeo.com/502nyc"><i class="fab fa-vimeo-v"></i></a>
+
+            <!-- <p><a href="#">LinkedIn</a></p>
+            <p><a href="#">Instagram</a></p> -->
           </li>
           <li>
             <h4>Address</h4>
-            <p>139 Fulton St, Room 702 New York, NY, 10018</p>
+            <p>139 Fulton St, Ste 704 New York, NY, 10018</p>
           </li>
         </ul>
       </footer>
