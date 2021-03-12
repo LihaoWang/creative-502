@@ -402,7 +402,7 @@ section#content {
 }
 
 .pack .tit {
-  font-family: "Monument Extended" !important;
+  font-family: "Monument Extended Bold" !important;
   position: relative;
   margin-top: -18px;
   font-weight: 400;
@@ -412,7 +412,7 @@ section#content {
 }
 
 .pack .tip {
-  font-family: "Monument Extended" !important;
+  font-family: "Monument Extended Bold" !important;
   margin-top: 12px;
   font-weight: 100;
   opacity: 0.5;
