@@ -15,7 +15,9 @@
   position: absolute;
   left: -9999px;
 } /* screen readers only */
-
+i {
+  margin-right: 5px;
+}
 body {
   color: #fff;
   font-weight: 400;

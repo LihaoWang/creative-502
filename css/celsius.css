@@ -18,6 +18,9 @@
 .logo-header {
   margin-top: 50px;
 }
+i {
+  margin-right: 5px;
+}
 body {
   color: #fff;
   font-weight: 400;
