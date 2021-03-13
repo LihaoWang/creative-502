@@ -15,7 +15,9 @@
   position: absolute;
   left: -9999px;
 } /* screen readers only */
-
+.logo-header {
+  margin-top: 50px;
+}
 body {
   color: #fff;
   font-weight: 400;
@@ -295,13 +297,13 @@ footer ul {
 }
 
 footer li:nth-child(1) {
-  width: 50%;
+  width: 33%;
 }
 footer li:nth-child(2) {
-  width: 25%;
+  width: 33%;
 }
 footer li:nth-child(3) {
-  width: 25%;
+  width: 33%;
 }
 
 footer li h4 {
