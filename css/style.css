@@ -33,6 +33,60 @@ body {
 i {
   margin-right: 5px;
 }
+.clients-grid {
+  display: grid;
+  grid-gap: 3rem;
+  align-items: center;
+  justify-items: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.clients-item:nth-child(1) {
+  max-width: 100%;
+  grid-column: 1/3;
+  grid-row: 1;
+}
+.clients-item:nth-child(2) {
+  grid-column: 4/6;
+  grid-row: 1;
+}
+.clients-item:nth-child(3) {
+  grid-column: 7/9;
+  grid-row: 1;
+}
+.clients-item:nth-child(4) {
+  grid-column: 1/3;
+  grid-row: 2;
+}
+.clients-item:nth-child(5) {
+  grid-column: 4/6;
+  grid-row: 2;
+}
+.clients-item:nth-child(6) {
+  grid-column: 7/9;
+  grid-row: 2;
+}
+.clients > h4 {
+  font-family: "Monument Extended Bold", sans-serif;
+  padding-bottom: 10px;
+  display: flex;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1;
+  text-align: center;
+  width: 100%;
+  border-bottom: 7px solid #fff;
+}
+article.clients {
+  grid-column: 2/6;
+  grid-row: 4;
+}
+article {
+  padding-top: 100px;
+}
 header {
   font-family: "Monument Extended Bold", sans-serif;
   text-transform: uppercase;
@@ -266,6 +320,7 @@ section#mainbanr {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  opacity: 70%;
 }
 #mainbanr #parallax {
   z-index: -1;
@@ -441,7 +496,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 1312px;
-  margin: 200px auto 0;
+  margin: 150px auto 0;
   padding-bottom: 80px;
 }
 
@@ -498,6 +553,40 @@ footer a:active {
 /* ---------- grid ---------- */
 
 @media screen and (max-width: 768px) {
+  .clients-grid {
+    display: grid;
+    grid-gap: 2rem;
+    align-items: center;
+    justify-items: center;
+  }
+  .clients-item:nth-child(1) {
+    grid-column: 1/5;
+    grid-row: 1;
+  }
+  .clients-item:nth-child(2) {
+    grid-column: 5/9;
+    grid-row: 1;
+  }
+  .clients-item:nth-child(3) {
+    grid-column: 1/5;
+    grid-row: 2;
+  }
+  .clients-item:nth-child(4) {
+    grid-column: 5/9;
+    grid-row: 2;
+  }
+  .clients-item:nth-child(5) {
+    grid-column: 1/5;
+    grid-row: 3;
+  }
+  .clients-item:nth-child(6) {
+    grid-column: 5/9;
+    grid-row: 3;
+  }
+  article.clients {
+    grid-column: 1/9;
+    grid-row: 4;
+  }
   .navbar-menu {
     width: calc(100vw - 40px);
     margin: 0 auto;
