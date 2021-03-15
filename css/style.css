@@ -39,7 +39,7 @@ i {
   align-items: center;
   justify-items: center;
 }
-img {
+img.logo-img {
   max-width: 100%;
   height: auto;
 }
